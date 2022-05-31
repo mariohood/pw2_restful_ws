@@ -10,7 +10,7 @@ import javax.ws.rs.PathParam;
  */
 @Path("/api/{nos}")
 @Singleton
-public class Service1 {
+public class Service2 {
 
     @GET
     public double conversao(@PathParam("nos") double nos) {
